@@ -1,4 +1,4 @@
-# MVC
+# ✍ MVC
 
 정보를 보다 더 전문적인 영역에서 관리하는 방법을 안내한다.
 추가적으로 ORM을 활용해 DB와 프로그래밍 언어 사이의 개념 간극을 줄여준다
@@ -12,7 +12,7 @@ model : 데이터와 관련된 부분
 view : 사용자한테 보여지는 부분
 controller : model과 view를 이어주는 부분
 
-# mvc를 지키면서 코딩하는 방법
+# ✍ mvc를 지키면서 코딩하는 방법
 #### 1. model은 controller와 view에 의존하지 않아야 한다. 쉽게 말하면 model 내부에 controller와 view에 관련된 코드가 있으면 안된다.
 ```jsx
 public class Student {
@@ -43,7 +43,7 @@ System.out.printIn(
 }
 ```
 #### 3. view가 model로부터 데이터를 받을때는, 사용자마다 다르게 보여줘야하는 데이터만 받아와야 한다.
-#### 4. controller에는 model과 view에 의존해야하 한다. 쉽게 말하면 controller 내부에는 model과 view의 코드가 있을 수 있다.
+#### 4. controller에는 model과 view에 의존해야 한다. 쉽게 말하면 controller 내부에는 model과 view의 코드가 있을 수 있다.
 ```jsx
 public class COntroller {
 public static void main(String[] args){
@@ -54,7 +54,7 @@ OutputView.printProfile(student);
 ```
 #### 5. view가 model로부터 데이터를 받아올 때, 반드시 controller에서 받아야 한다.
 
-# 웹에서 mvc가 작동하는 그림
+# ✍ 웹에서 mvc가 작동하는 그림
 
 1. 사용자가 브라우저의 이벤트를 발생
 2. 라우터가 엔드포인트를 분기
