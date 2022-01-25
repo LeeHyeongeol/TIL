@@ -57,7 +57,6 @@ module.exports = {
     get: (req, res) => {
       const userId = req.params.userId;
       console.log(`유저id=${userId}`)
-      // TODO: 요청에 따른 적절한 응답을 돌려주는 컨트롤러를 작성하세요.
       if (!userId) {
         res.status(500).send('wrong')
       } else {
@@ -128,7 +127,6 @@ module.exports = {
       });
     },
     post: (userId, orders, totalPrice, callback) => {
-      // TODO: 해당 유저의 주문 요청을 데이터베이스에 생성하는 함수를 작성하세요
 
       //우선 orders테이블에 userId, totalPrice를 삽입한다.
       const queryPost = `INSERT INTO orders(user_id, total_price) VAlUES (${userId}, ${totalPrice}) `;
