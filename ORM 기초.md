@@ -21,9 +21,8 @@ INSERT INTO HYEONGEOL(name) VALUES (hyeongeol)
 
 ```jsx
 class Person() {
-constructor(name,age){
+constructor(name){
 this.name = 'hyeongeol'
-this.age = '27'
 }
 }
 const person = new Person(...)
