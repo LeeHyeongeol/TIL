@@ -29,3 +29,14 @@ const person = new Person(...)
 ```
 
 ![스크린샷, 2022-01-27 23-36-36](https://user-images.githubusercontent.com/68496535/151380134-d0f463b6-b3ae-4a17-beb7-f1604208ce4f.png)
+
+# ✍ Sequelize
+
+다양한 orm이 있다. Flask : SQLAlchemy, Django : 내장 ORM, Node.js : sequelize, Java : Hybernate,JPA, GraphQL : Prisma 등등
+그 중에서 오늘 배운 sequelize에 대해 정리해보고자 한다.
+우선 Node.js를 기반으로한 ORM으로 지원하는 RDBMS는 Postgres, MySQL, MariaDB, SQLite, Microsoft SQL Server 이다.
+
+
+
+
+
